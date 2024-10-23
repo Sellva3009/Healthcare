@@ -1,0 +1,13 @@
+.feature-topics h4 {
+    font-size: 35px;
+}
+
+.topic {
+    background: lightcyan;
+    padding: 30px;
+}
+
+.topic button {
+    padding: 10px 25px;
+    background: orange;
+}

@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom'
 import { checkValidUser, setAuthentication } from './LoginLogic'
 import { useAuthentication } from './AuthenticationContext'
  
-export default function LoginForm() {
+export default function Login() {
  
     const { authUser, setAuthUser, isLoggedIn, setIsLoggedIn } = useAuthentication()
  
@@ -63,3 +63,4 @@ export default function LoginForm() {
         </div>
     )
 }
+

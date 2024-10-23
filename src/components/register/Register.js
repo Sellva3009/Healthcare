@@ -13,12 +13,24 @@ const Register = () => {
     e.preventDefault();
 
     // Simple validation
-    if (username === "" || email === "" || password === "" || phone === "" || dob === "") {
+    if (
+      username === "" ||
+      email === "" ||
+      password === "" ||
+      phone === "" ||
+      dob === ""
+    ) {
       setError("All fields are required!");
     } else {
       setError("");
       // Handle registration logic here
-      console.log("Registering with", { username, email, password, phone, dob });
+      console.log("Registering with", {
+        username,
+        email,
+        password,
+        phone,
+        dob,
+      });
     }
   };
 
