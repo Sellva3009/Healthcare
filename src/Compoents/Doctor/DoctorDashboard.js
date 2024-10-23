@@ -1,6 +1,18 @@
-<nav class="nav flex-column">
-  <a class="nav-link active" aria-current="page" href="#">Active</a>
-  <a class="nav-link" href="#">Link</a>
-  <a class="nav-link" href="#">Link</a>
-  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-</nav>
+import Nav from 'react-bootstrap/Nav';
+export default function DoctorDashboard(){
+  return(<>
+
+
+    <Nav defaultActiveKey="/home" className="flex-column">
+      <Nav.Link href="/home">Active</Nav.Link>
+      <Nav.Link eventKey="link-1">Link</Nav.Link>
+      <Nav.Link eventKey="link-2">Link</Nav.Link>
+      <Nav.Link eventKey="disabled" disabled>
+        Disabled
+      </Nav.Link>
+    </Nav>
+
+
+  </>)
+}
+
