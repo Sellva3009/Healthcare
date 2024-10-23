@@ -106,6 +106,7 @@ const styles = {
   error: {
     color: "red",
     marginBottom: "15px",
+    fontSize: "14px",
   },
   loginText: {
     marginTop: "20px",
@@ -116,6 +117,7 @@ const styles = {
   linkText: {
     color: "#007bff",
     textDecoration: "none",
+    fontSize: "16px",
   },
 };
 
