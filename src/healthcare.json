@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "useremail": "smith@gmail.com",
+      "password": "1234",
+      "role": "doctor"
+    },
+    {
+      "id": 2,
+      "useremail": "venu@gmail.com",
+      "password": "4567",
+      "role": "doctor"
+    },
+    {
+      "id": 3,
+      "useremail": "john@gmail.com",
+      "password": "1122",
+      "role": "patient"
+    }
+  ],
+  "register": [
+    {
+      "id": 1,
+      "name": "John",
+      "place": "Bangalore",
+      "email": "john@gmail.com",
+      "number": "9999444444",
+      "password": "1212"
+    }
+  ],
+  "appointment": [{
+    "id": "1",
+    "name":"John",
+    "selectDoctor": "Rosy",
+    "selectDate": "23-10-24",
+    "availableSlot": "9:00AM",
+    "reasonvisit": "fever",
+    "additionalnotes": "NA"
+  },
+  {
+    "id": "2",
+    "name":"Sravani",
+    "selectDoctor": "Karthick",
+    "selectDate": "23-10-24",
+    "availableSlot": "9:00AM",
+    "reasonvisit": "fever",
+    "additionalnotes": "NA"
+  }
+]
+
+}

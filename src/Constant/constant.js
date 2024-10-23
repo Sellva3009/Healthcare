@@ -1,0 +1,1 @@
+export const HealthcareJSONURL = "http://localhost:4000";
